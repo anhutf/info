@@ -1,0 +1,146 @@
+[
+  {
+    "title": "Todos App - Organize your work",
+    "description": "Functions to create, edit, complete and delete todo",
+    "photo": "/project-picture/todos-app.png",
+    "languages": "ReactJS, TypeScript, CSS",
+    "demo": "https://todoapp-anhutf.netlify.app",
+    "source": "https://github.com/anhutf/todos-app",
+    "start": 5
+  },
+  {
+    "title": "Tiki exchange's trading data",
+    "description": "Utilities to summary data, expand, combine the order list, volume chart.",
+    "photo": "/project-picture/exchange-tiki.png",
+    "languages": "JavaScript, HTML, CSS",
+    "demo": "https://anhutf.github.io/exchange-tiki",
+    "source": "https://github.com/anhutf/exchange-tiki",
+    "start": 5
+  },
+  {
+    "title": "Omnifood project - Meal business website",
+    "description": "Responsive web design. Build effects, optimizations and deployment.",
+    "photo": "/project-picture/omnifood-project.png",
+    "languages": "HTML, CSS",
+    "demo": "https://anhutf.github.io/omnifood-project",
+    "source": "https://github.com/anhutf/omnifood-project",
+    "start": 5
+  },
+  {
+    "title": "25 plus 5 Clock",
+    "description": "Build 25 plus 5 Clock - project on FreeCodeCamp.",
+    "photo": "/project-picture/25plus5clock.png",
+    "languages": "ReactJS",
+    "demo": "https://anhutf.github.io/25plus5clock",
+    "source": "https://github.com/anhutf/25plus5clock",
+    "start": 4
+  },
+  {
+    "title": "Calculator",
+    "description": "Build Math calculator - project on FreeCodeCamp.",
+    "photo": "/project-picture/calculator.png",
+    "languages": "ReactJS",
+    "demo": "https://anhutf.github.io/calculator",
+    "source": "https://github.com/anhutf/calculator",
+    "start": 3
+  },
+  {
+    "title": "Drum Machine",
+    "description": "Online Drum machine - project on FreeCodeCamp.",
+    "photo": "/project-picture/drum-machine.png",
+    "languages": "JavaScript, HTML, CSS",
+    "demo": "https://anhutf.github.io/drum-machine",
+    "source": "https://github.com/anhutf/drum-machine",
+    "start": 3
+  },
+  {
+    "title": "Markdown Previewer",
+    "description": "The online markdown editor with live preview - project on FreeCodeCamp.",
+    "photo": "/project-picture/markdown-previewer.png",
+    "languages": "ReactJS",
+    "demo": "https://anhutf.github.io/markdown-previewer",
+    "source": "https://github.com/anhutf/markdown-previewer",
+    "start": 2
+  },
+  {
+    "title": "Node JS Command Line Tools",
+    "description": "Build a command line tool similar to ls command.",
+    "photo": "N/A",
+    "languages": "JavaScript",
+    "demo": "N/A",
+    "source": "https://github.com/anhutf/list-nodejs",
+    "start": 5
+  },
+  {
+    "title": "Secret message sharing app",
+    "description": "Create a secret messages. Get link and share with friends.",
+    "photo": "/project-picture/secret-message.png",
+    "languages": "JavaScript, HTML",
+    "demo": "https://secret-message-rho-smoky.vercel.app",
+    "source": "https://github.com/anhutf/secret-message",
+    "start": 3
+  },
+  {
+    "title": "Maze Game",
+    "description": "Use Matter.js (2D physics engine for the web) build maze game.",
+    "photo": "/project-picture/maze.png",
+    "languages": "JavaScript",
+    "demo": "https://anhutf.github.io/maze",
+    "source": "https://github.com/anhutf/maze",
+    "start": 4
+  },
+  {
+    "title": "Movie application design pattern",
+    "description": "Search for movies, compare 2 movies to choose the better movie.",
+    "photo": "/project-picture/fetching-movie-data.png",
+    "languages": "JavaScript",
+    "demo": "https://anhutf.github.io/fetching-movie-data/",
+    "source": "https://github.com/anhutf/fetching-movie-data",
+    "start": 3
+  },
+  {
+    "title": "Timer",
+    "description": "Build a stopwatch.",
+    "photo": "/project-picture/timer.png",
+    "languages": "JavaScript, HTML, CSS",
+    "demo": "https://anhutf.github.io/timer",
+    "source": "https://github.com/anhutf/timer",
+    "start": 3
+  },
+  {
+    "title": "Exchange rate Calculator",
+    "description": "Get exchange rates of currencies.",
+    "photo": "/project-picture/exchange-rate.png",
+    "languages": "JavaScript, HTML, CSS",
+    "demo": "https://anhutf.github.io/exchange-rate",
+    "source": "https://github.com/anhutf/exchange-rate",
+    "start": 2
+  },
+  {
+    "title": "Custom video player",
+    "description": "Custom from default video player.",
+    "photo": "/project-picture/custom-video-player.png",
+    "languages": "JavaScript, HTML, CSS",
+    "demo": "https://anhutf.github.io/custom-video-player",
+    "source": "https://github.com/anhutf/custom-video-player",
+    "start": 2
+  },
+  {
+    "title": "Movie Seat Booking",
+    "description": "Pick a movie, select seat and see the price.",
+    "photo": "/project-picture/movie-seat-booking.png",
+    "languages": "JavaScript, HTML, CSS",
+    "demo": "https://anhutf.github.io/movie-seat-booking",
+    "source": "https://github.com/anhutf/movie-seat-booking",
+    "start": 2
+  },
+  {
+    "title": "Form Validator",
+    "description": "Build form validator. Check user name, email, password.",
+    "photo": "/project-picture/form-validator.png",
+    "languages": "JavaScript, HTML, CSS",
+    "demo": "https://anhutf.github.io/form-validator",
+    "source": "https://github.com/anhutf/form-validator",
+    "start": 1
+  }
+]
