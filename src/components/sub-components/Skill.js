@@ -14,7 +14,7 @@ export default function Skill({ skillName }) {
       {skillName.split(", ").map((skill) => (
         <span
           key={skill}
-          className={`bg-slate-400 ${skillColor[skill]} text-base rounded-full px-3 hover:cursor-pointer`}
+          className={`bg-slate-400 ${skillColor[skill]} text-sm md:text-base rounded-full px-3 hover:cursor-pointer`}
         >
           {skill}
         </span>

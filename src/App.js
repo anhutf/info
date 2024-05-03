@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
+import { HelmetProvider } from "react-helmet-async";
 
 import Header from "./components/Header";
 import Main from "./components/Main";
@@ -18,12 +19,14 @@ function App() {
   };
 
   return (
-    <div className="scroll-smooth">
-      <ScrollToTop />
-      <Header />
-      <Main />
-      <Footer />
-    </div>
+    <HelmetProvider>
+      <div className="scroll-smooth">
+        <ScrollToTop />
+        <Header />
+        <Main />
+        <Footer />
+      </div>
+    </HelmetProvider>
   );
 }
 
