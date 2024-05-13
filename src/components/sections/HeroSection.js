@@ -8,7 +8,7 @@ export default function HeroSection() {
               <span className="block text-left text-slate-200 text-base sm:text-lg md:text-xl font-medium">
                 Hi! I'm
               </span>
-              <span className="text-xl sm:text-2xl md:text-3xl tracking-wide whitespace-nowrap">
+              <span className="text-xl sm:text-2xl md:text-3xl text-amber-400 tracking-wide whitespace-nowrap">
                 Anh Nhut
               </span>
             </h2>

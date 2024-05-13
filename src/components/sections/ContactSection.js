@@ -3,13 +3,10 @@ import {
   EnvelopeIcon,
   MapPinIcon,
 } from "@heroicons/react/24/outline";
+import FormValidation from "../sub-components/FormValidation";
+import FormValidationRealTime from "../sub-components/FormValidationRealTime";
 
 export default function ContactSection() {
-  const labelClassName =
-    "block mb-2 text-base sm:text-lg md:text-xl text-slate-100";
-  const inputClassName =
-    "bg-slate-800 border border-slate-600 text-slate-50 text-base sm:text-lg md:text-xl rounded-md focus:ring-slate-500 focus:border-slate-500 block w-full px-4 py-3 placeholder-gray-600";
-
   return (
     <section
       id="contact"
@@ -19,53 +16,7 @@ export default function ContactSection() {
         <h3 className="text-2xl sm:text-3xl md:text-4xl uppercase text-amber-400 font-medium tracking-wider text-center">
           Contact Me
         </h3>
-        <form className="max-w-xl mx-auto flex flex-col gap-5 sm:gap-7 py-8">
-          <div className="field">
-            <label htmlFor="name" className={labelClassName}>
-              Full name
-            </label>
-            <input
-              type="text"
-              id="name"
-              className={inputClassName}
-              placeholder="Nguyen Anh Nhut"
-              required
-              autoComplete="on"
-            />
-          </div>
-          <div className="field">
-            <label htmlFor="email" className={labelClassName}>
-              Email address
-            </label>
-            <input
-              type="email"
-              id="email"
-              className={inputClassName}
-              placeholder="anhutf@gmail.com"
-              required
-              autoComplete="on"
-            />
-          </div>
-          <div className="field">
-            <label htmlFor="message" className={labelClassName}>
-              Message
-            </label>
-            <textarea
-              id="message"
-              rows={5}
-              className={inputClassName}
-              placeholder="Write your message"
-              required
-              autoComplete="off"
-            />
-          </div>
-          <button
-            type="submit"
-            className="border border-amber-400 hover:border-amber-500 px-6 py-3 rounded-md text-amber-400 transition duration-500 ease-in-out hover:-translate-y-0.5 text-base sm:text-lg md:text-xl font-medium uppercase mt-2"
-          >
-            Send message
-          </button>
-        </form>
+        <FormValidationRealTime />
         <div className="mx-4 md:mx-8 py-12 sm:py-16 flex flex-col sm:flex-row gap-4 justify-between text-slate-200 text-base sm:text-lg">
           <div className="">
             <h4 className="flex gap-2 items-center">
