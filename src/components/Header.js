@@ -19,23 +19,23 @@ export default function Header() {
         isScrollUp || isOpen ? "sticky top-0 z-50 bg-opacity-95" : "static"
       } transition-all duration-500 z-50`}
     >
-      <div className="max-w-7xl mx-auto flex items-center gap-2 px-4 sm:px-8 py-3 sm:py-5 z-50">
+      <div className="max-w-7xl mx-auto flex items-center gap-2 px-4 sm:px-8 py-2 sm:py-4 z-50">
         <div className="logo flex-1">
           <a
             href="/"
-            className="text-2xl sm:text-3xl text-amber-400 hover:text-amber-500 font-medium"
+            className="text-3xl md:text-4xl text-amber-400 hover:text-amber-500 font-medium"
           >
             anf<span className="text-amber-700 hover:text-amber-800">.</span>
           </a>
         </div>
         <nav className="text-xl md:text-2xl">
-          <div className="block sm:hidden">
+          <div className="mobile block sm:hidden">
             <button
               onClick={toggleNav}
               className="flex justify-center items-center"
             >
               <Bars3BottomRightIcon
-                className={`w-8 h-8 text-amber-400 ${
+                className={`w-10 h-10 text-amber-400 ${
                   !isOpen ? "visible" : "invisible"
                 }`}
               ></Bars3BottomRightIcon>
@@ -47,7 +47,7 @@ export default function Header() {
             >
               <button onClick={toggleNav} className="absolute top-3 right-4">
                 {isOpen ? (
-                  <XMarkIcon className="w-8 h-8 text-amber-400"></XMarkIcon>
+                  <XMarkIcon className="w-10 h-10 text-amber-400"></XMarkIcon>
                 ) : null}
               </button>
 
@@ -55,7 +55,9 @@ export default function Header() {
                 onClick={toggleNav}
                 to="/"
                 className={`w-full text-center py-4 rounded-md hover:bg-slate-800 hover:text-amber-400 active:text-amber-400 ${
-                  location.pathname === "/" ? "text-amber-400" : "text-slate-50"
+                  location.pathname === "/"
+                    ? "text-amber-400 font-medium"
+                    : "text-slate-50"
                 }`}
               >
                 Home
@@ -65,7 +67,7 @@ export default function Header() {
                 to="/project"
                 className={`w-full text-center py-4 rounded-md hover:bg-slate-800 hover:text-amber-400 active:text-amber-400 ${
                   location.pathname === "/project"
-                    ? "text-amber-400"
+                    ? "text-amber-400 font-medium"
                     : "text-slate-50"
                 }`}
               >
@@ -76,7 +78,7 @@ export default function Header() {
                 to="/blog"
                 className={`w-full text-center py-4 rounded-md hover:bg-slate-800 hover:text-amber-400 active:text-amber-400 ${
                   location.pathname === "/blog"
-                    ? "text-amber-400"
+                    ? "text-amber-400 font-medium"
                     : "text-slate-50"
                 }`}
               >
@@ -87,7 +89,7 @@ export default function Header() {
                 to="/about"
                 className={`w-full text-center py-4 rounded-md hover:bg-slate-800 hover:text-amber-400 active:text-amber-400 ${
                   location.pathname === "/about"
-                    ? "text-amber-400"
+                    ? "text-amber-400 font-medium"
                     : "text-slate-50"
                 }`}
               >
@@ -95,11 +97,13 @@ export default function Header() {
               </Link>
             </div>
           </div>
-          <div className="hidden sm:flex flex-row gap-6 items-center justify-items-center">
+          <div className="tablet hidden sm:flex flex-row gap-6 items-center justify-items-center">
             <Link
               to="/"
               className={`hover:text-amber-400 active:text-amber-400 ${
-                location.pathname === "/" ? "text-amber-400" : "text-slate-50"
+                location.pathname === "/"
+                  ? "text-amber-400 font-medium"
+                  : "text-slate-50"
               }`}
             >
               Home
@@ -108,7 +112,7 @@ export default function Header() {
               to="/project"
               className={`hover:text-amber-400 active:text-amber-400 ${
                 location.pathname === "/project"
-                  ? "text-amber-400"
+                  ? "text-amber-400 font-medium"
                   : "text-slate-50"
               }`}
             >
@@ -118,7 +122,7 @@ export default function Header() {
               to="/blog"
               className={`hover:text-amber-400 active:text-amber-400 ${
                 location.pathname === "/blog"
-                  ? "text-amber-400"
+                  ? "text-amber-400 font-medium"
                   : "text-slate-50"
               }`}
             >
@@ -128,7 +132,7 @@ export default function Header() {
               to="/about"
               className={`hover:text-amber-400 active:text-amber-400 ${
                 location.pathname === "/about"
-                  ? "text-amber-400"
+                  ? "text-amber-400 font-medium"
                   : "text-slate-50"
               }`}
             >

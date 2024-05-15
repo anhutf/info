@@ -66,7 +66,7 @@ export default function FormValidation() {
           id="name"
           className={inputClassName}
           placeholder="Nguyen Anh Nhut"
-          autoComplete="on"
+          autoComplete="off"
           onChange={handleChange}
         />
         <span className="inline-block h-auto text-sm sm:text-base text-red-500">
@@ -82,7 +82,7 @@ export default function FormValidation() {
           id="email"
           className={inputClassName}
           placeholder="anhutf@gmail.com"
-          autoComplete="on"
+          autoComplete="off"
           onChange={handleChange}
         />
         <span className="inline-block h-auto text-sm sm:text-base text-red-500">

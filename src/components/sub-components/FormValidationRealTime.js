@@ -64,7 +64,7 @@ export default function FormValidationRealTime() {
           id="name"
           className={inputClassName}
           placeholder="Nguyen Anh Nhut"
-          autoComplete="on"
+          autoComplete="off"
           value={formik.values.name}
           onChange={formik.handleChange}
           onBlur={formik.handleBlur}
@@ -85,7 +85,7 @@ export default function FormValidationRealTime() {
           id="email"
           className={inputClassName}
           placeholder="anhutf@gmail.com"
-          autoComplete="on"
+          autoComplete="off"
           value={formik.values.email}
           onChange={formik.handleChange}
           onBlur={formik.handleBlur}

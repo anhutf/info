@@ -28,7 +28,7 @@ export default function Footer() {
             className="bg-slate-50 p-1 rounded-md"
           >
             <img
-              className="w-5 sm:w-7 grayscale hover:grayscale-0"
+              className="w-6 sm:w-7 md:w-8 grayscale hover:grayscale-0"
               src={require(`../assets/info-icon/github-icon.png`)}
             />
           </a>
@@ -38,7 +38,7 @@ export default function Footer() {
             className="bg-slate-50 p-1 rounded-md"
           >
             <img
-              className="w-5 sm:w-7 grayscale hover:grayscale-0"
+              className="w-6 sm:w-7 md:w-8 grayscale hover:grayscale-0"
               src={require(`../assets/info-icon/linkedin-icon.png`)}
             />
           </a>
@@ -48,7 +48,7 @@ export default function Footer() {
             className="bg-slate-50 p-1 rounded-md"
           >
             <img
-              className="w-5 sm:w-7 grayscale hover:grayscale-0"
+              className="w-6 sm:w-7 md:w-8 grayscale hover:grayscale-0"
               src={require(`../assets/info-icon/facebook-icon.png`)}
             />
           </a>
