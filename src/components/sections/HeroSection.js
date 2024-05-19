@@ -43,8 +43,8 @@ export default function HeroSection() {
           <span className="whitespace-nowrap"> Front-End</span>
         </h1>
         <p className="text-lg sm:text-xl md:text-2xl text-slate-200 py-2">
-          I looking forward to getting the experience, improve skills, develop
-          my career.
+          I look forward to gaining experience, improving my skills, and
+          developing my career.
         </p>
         <div className="action flex flex-col sm:flex-row justify-center items-center gap-4 text-base sm:text-lg md:text-xl font-medium uppercase pt-3 sm:pt-6">
           <a

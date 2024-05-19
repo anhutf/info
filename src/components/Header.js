@@ -35,7 +35,7 @@ export default function Header() {
               className="flex justify-center items-center"
             >
               <Bars3BottomRightIcon
-                className={`w-10 h-10 text-amber-400 ${
+                className={`w-10 h-10 text-amber-400 hover:text-amber-500 ${
                   !isOpen ? "visible" : "invisible"
                 }`}
               ></Bars3BottomRightIcon>
@@ -45,9 +45,9 @@ export default function Header() {
                 isOpen ? "flex" : "hidden"
               } w-full h-full bg-slate-900 bg-opacity-95 flex-col gap-1 justify-center items-center fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 px-4 py-3`}
             >
-              <button onClick={toggleNav} className="absolute top-3 right-4">
+              <button onClick={toggleNav} className="absolute top-2 right-4">
                 {isOpen ? (
-                  <XMarkIcon className="w-10 h-10 text-amber-400"></XMarkIcon>
+                  <XMarkIcon className="w-10 h-10 text-amber-400 hover:text-amber-500"></XMarkIcon>
                 ) : null}
               </button>
 
